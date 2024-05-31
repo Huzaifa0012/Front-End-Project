@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/lightslider.css">
+    <title>Home page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/lightslider.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/lightslider.js"></script>
+    <script>
+         $(document).ready(function() {
+    $('#autoWidth').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth').removeClass('cS-hidden');
+        } 
+    });  
+  });
+    </script>
+    <style>
+        .contai{
+            background-image: url(img/background.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
+    <script>
+        var a = document.getElementById("sa").value;
+        function abc(){
+            document.getElementById("sa").innerHTML = '<p>We are based in a professional photo studio with ten stylish rooms, <br>creative photographers, low prices, modern hi-tech laboratory, <br>tons of photo devices for rent and sale. Visit us and get an amazing photoshoot!</p> <img src="img/tommy.jpg" style="width: 70px; height: 70px; border-top-right-radius: 100px; border-bottom-left-radius: 100px; border-bottom-right-radius: 100px; border-top-left-radius: 100px; margin-top: 9%;"> <h2 style="color:  white; float: right; margin-top: 11%; margin-right: 60%;">Lisa Adam</h2>'
+        };
+    </script>
+</head>
+<body>
+    <div class="contai">
+        <header id="myHeader">
+            <section class="logo"> <img src="img/2.png" alt="2.png">
+            </section>
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">BRAND</a>
+                        <div class="megadiv1">
+                            <div class="mega2 animate__animated animate__fadeInDown">
+                                <a href="Canon.html"><img src="img/canon.png" alt="canon">
+                                <div class=" saad animate__animated animate__fadeInUp">
+                                    <h4>CANON</h4>
+                                </div>
+                                </a>
+                            </div>
+                            <div class="mega2 animate__animated animate__fadeInDown">
+                                <a href="nikon.html"><img src="img/nikon.png" alt="canon">
+                                    <div class="saad animate__animated animate__fadeInUp">
+                                        <h4>NIKON</h4>
+                                    </div>
+                                    </a>
+                            </div>
+                            <div class="mega2 animate__animated animate__fadeInDown">
+                                <a href="sony.html"><img src="img/sony.png" alt="canon">
+                                    <div class="saad animate__animated animate__fadeInUp">
+                                        <h4>SONY</h4>
+                                    </div>
+                                    </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#">CATEGORIES</a>
+                        <div class="megadiv">
+                            <div class="mega1 animate__animated animate__fadeInDown">
+                                <h2>CAMERA'S</h2>
+                                <a href="camera.html"><img src="img/mirrorless.png" alt="Saad"></a></div>
+                            <div class="mega1 animate__animated animate__fadeInDown">
+                                <h2>LENSE'S</h2>
+                                <a href="#"><img src="img/lense1.png" alt="Saad"></a>
+                            </div>
+                            <!-- <div class="mega1 animate__animated animate__fadeInDown">
+                                <h2>AUDIO ACCESSORIES</h2>
+                                <a href="#"><img src="img/audio.png" alt="Saad"></a>
+                            </div> -->
+                            <!-- <div class="mega1 animate__animated animate__fadeInDown">
+                                <h2>MEMORY CARD'S</h2>
+                                <a href="#"><img src="img/MEDIA.PNG" alt="Saad"></a>
+                            </div><br> -->
+                            <!-- <div class="mega1 animate__animated animate__fadeInDown">
+                                <h2>TRIPOD'S & SUPPORT</h2>
+                                <a href="#"><img src="img/tripods.png" alt="Saad"></a>
+                            </div> -->
+                            <!-- <div class="mega1 animate__animated animate__fadeInDown">
+                                <h2>LIGHTING STUDIO</h2>
+                                <a href="#"><img src="img/lighting.png" alt="Saad"></a>
+                            </div> -->
+                            <!-- <div class="mega1 animate__animated animate__fadeInDown">
+                                <h2>CAMERA BAGS </h2>
+                                <a href="bag.html"><img src="img/cases.png" alt="Saad"></a>
+                            </div> -->
+                            <!-- <div class="mega1 animate__animated animate__fadeInDown">
+                                <h2>MISCELLANEOUS</h2>
+                                <a href="#"><img src="img/Miscellaneous.png" alt="Saad"></a>
+                            </div> -->
+                        </div>
+                    </li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <!-- <li><a href="comparison.html">COMPARISON</a></li> -->
+                </ul>
+            </nav>
+            <div class="acc">
+                <h6><a href="#">Feedback</a></h6>
+                <div class="sign">
+                    <a href="#"><i class="fa fa-shopping-cart aria-hidden="true" style="margin-left: 15px;"></i></a>
+                </div>
+                <div class="sign">
+                    <a href="#"><i class="fa fa-user"></i></a>
+                </div>
+            </div>
+        </header><!---------header end--------------->
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var header = document.getElementById("myHeader");
+            var sticky = header.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+              } else {
+                header.classList.remove("sticky");
+              }
+            }
+            </script>
+        <div class="slider">  <div class="swiper1">
+       
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src=""></div>
+              <!-- <div class="swiper-slide"><img src=""></div>
+              <div class="swiper-slide"><img src=""></div> -->
+           
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination1"></div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev1"></div>
+            <div class="swiper-button-next1"></div>
+          
+           
+          </div>
+                  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+                     <script>
+                            const swiper1 = new Swiper1('.swiper1', {
+                            autoplay: {
+                            delay: 3000,
+                            disableOnInteraction: false,
+                            },
+                            loop: true,
+        
+        
+                            pagination: {
+                            el: '.swiper-pagination1',
+                            clickable: true,
+                            },
+        
+        
+                            navigation: {
+                            nextEl: '.swiper-button-next1',
+                            prevEl: '.swiper-button-prev1',
+                            },
+        
+        
+                            });
+                    </script> </div><!---------sldier end------------->
+        <div class="underslide"></div>
+        <div class="countbox">
+            <div class="cam">
+                <div class="img"><img src="img/shots3.png" alt=""></div>
+                <div class="sa">
+                    <h3 data-target="15000" class="count">0</h3>
+                <h6>Sales</h6>
+                </div>
+            </div><br>
+            <div class="cam1">
+                <div class="img"><img src="img/pd.png" alt=""></div>
+                <div class="sa">
+                    <h3 data-target="1000" class="count">0</h3>
+                    <h6>Professional Devices</h6>
+                </div>
+            </div><br>
+            <div class="cam2">
+                <div class="img"><img src="img/pp.png" alt=""></div>
+                <div class="sa">
+                    <h3 data-target="800" class="count">0</h3>
+                    <h6>Visit</h6>
+                </div>
+            </div>
+        </div>
+        <div class="wel">
+            <h1>WELCOME<BR>TO FOTOLAB</h1>
+                <dd>
+                    We are based in a professional photo studio with ten stylish rooms, creative photographers,<br> Low prices, modern hi-tech laboratory, tons of photo devices for rent<br> and sale. Visit us and get an amazing photoshoot!
+                </dd>
+        </div><!------wel end-------------------------->
+        <div class="offer">
+            <div class="our">
+                <h6>Our Product</h6>
+                <h1>WHAT WE OFFER</h1>
+            </div><!-----------our end-------->
+            <div class="product">
+                <ul id="autoWidth" class="cs-hidden">
+                <li class="item-a"> 
+                    <a href="#"><div class="pro"><img src="img/services-01-714x530.jpg"></div></a>
+                </li>
+                <li class="item-b"> 
+                    <a href="#"><div class="pro"><img src="img/services-02-714x530.jpg"></div></a>
+                </li>
+                <li class="item-c"> 
+                    <a href="#"><div class="pro"><img src="img/services-05-714x530.jpg"></div></a>
+                </li>
+                <li class="item-d"> 
+                    <a href="#"><div class="pro"><img src="img/services-04-714x530.jpg"></div></a>
+                    </li>
+                    <li class="item-e"> 
+                        <a href="#"><div class="pro"><img src="img/services-06-714x530.jpg"></div></a>
+                    </li>
+                   
+            </ul>
+            </div>
+        </div><!---------offer end------------>
+        <div class="access">
+            <div class="des">
+                <h1>CAMERA<br>ACCESSORIES</h1>
+                <p>Photography is the science, art, application and practice of creating durable <br>images by 
+                    recording light or either electronically, or chemically 
+                    <br>by means of film.</p>
+            </div>
+           <br> <div class="des1">
+           <div class="swiper">
+       
+               <div class="swiper-wrapper">
+                 <!-- Slides -->
+                 <div class="swiper-slide"><img src="img/studio-slider-01.jpg"></div>
+                 <div class="swiper-slide"><img src="img/studio-slider-02.jpg"></div>
+                 <div class="swiper-slide"><img src="img/studio-slider-03.jpg"></div>
+              
+               </div>
+               <!-- If we need pagination -->
+               <div class="swiper-pagination"></div>
+               <!-- If we need navigation buttons -->
+               <div class="swiper-button-prev"></div>
+               <div class="swiper-button-next"></div>
+             
+              
+             </div>
+                     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+                        <script>
+                               const swiper = new Swiper('.swiper', {
+                               autoplay: {
+                               delay: 3000,
+                               disableOnInteraction: false,
+                               },
+                               loop: true,
+           
+           
+                               pagination: {
+                               el: '.swiper-pagination',
+                               clickable: true,
+                               },
+           
+           
+                               navigation: {
+                               nextEl: '.swiper-button-next',
+                               prevEl: '.swiper-button-prev',
+                               },
+           
+           
+                               });
+                       </script></div><!--slider------------>
+        </div><!-----------access end------------>
+        <div class="offer1">
+            <div class="our1">
+                <h6>Who We Are</h6>
+                <h1>Meet Our Team</h1>
+            </div><!----------our1 end---------->
+            <div class="product1">
+                <div class="pro1"><img src="img/post-10-714x530.jpg"  ></div>
+                <div class="pro1"><img src="img/post-4-714x530.jpg"></div>
+                <div class="pro1"><img src="img/post-13-714x530.jpg"></div>
+                <div class="pro1"><img src="img/team-02-760x564.jpg"></div>
+            </div>
+        </div><!------------------offer1 end---->
+        <div class="access1">
+            <div class="des2">
+                <h1>WHAT<br>PEOPLE SAYS</h1>
+                <p>Photography is the science, art, application and practice of creating durable <br>images by 
+                    recording light or either electronically, or chemically 
+                    <br>by means of film.</p>
+            </div>
+           <br> <div class="des3">
+            <div class="lisa" id="sa">
+                <p>Photography is the science, art, application and practice of creating 
+                    <br>durable images by recording light or other electromagnetic radiation, 
+                    <br>either electronically, or chemically by means of film.</p>
+                    <div class="round">
+                        <div class="r1">
+                            <img src="img/lisa.jpg" alt="Saad">
+                            <h2>Lisa Adam</h2>
+                        </div><!----------r1 end--------------->
+                    </div>
+            </div><!--------------lisa end------>
+            <div class="r2" id="ma" onclick="abc()">
+                <!-- <img src="img/tommy.jpg" alt="Saad"> -->
+            </div>
+            <img src="img/photolia-image.jpg" alt="saad">
+           </div>
+        </div><!-----------access1 end------------>
+        <div class="shop"><img src="img/parallax-bg-03-1.jpg" alt="Saad"></div>
+        <div class="need">
+            <h1>NEED A CAMERA?<BR>VISIT OUR SHOP</h1>
+                <p>we have more than 400 photo devices for rent and sale, our team will help you make a choice</p>
+                <a href="#"><input type="button" value="Go To Shop"></a>
+        </div><!------------need end---------------->
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-caret-up aria-hidden=" true></i></button>
+        <script>
+            // Get the button
+            let mybutton = document.getElementById("myBtn");
+            
+            // When the user scrolls down 30px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 80) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+            <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-caret-up aria-hidden=" true></i></button>
+            <script>
+                // Get the button
+                let mybutton = document.getElementById("myBtn");
+                
+                // When the user scrolls down 30px from the top of the document, show the button
+                window.onscroll = function() {scrollFunction()};
+                
+                function scrollFunction() {
+                  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 80) {
+                    mybutton.style.display = "block";
+                  } else {
+                    mybutton.style.display = "none";
+                  }
+                }
+                
+                // When the user clicks on the button, scroll to the top of the document
+                function topFunction() {
+                  document.body.scrollTop = 0;
+                  document.documentElement.scrollTop = 0;
+                }
+                </script>
+                <footer>
+                    <div class="heading"><h1>FOTOLAB</h1>
+                    <h6>Camera Shop & Accessories</h6>
+                    </div><!----------headin end--------------->
+                    <div class="add">
+                        <h2>Address</h2>
+                        <p>8500, Yellow Street<br>
+                             Chicago, IL, 55030</p>
+                    </div><!--------------add end-------->
+                    <div class="add1">
+                        <h2>Socials</h2>
+                        <a href="#">
+                            <div class="fb">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </div>
+                        </a>
+                        <a href="#">
+                            <div class="ins">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="twit">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="add2">
+                        <h2>Contacts</h2>
+                        <a href="#">
+                            <p>0313-2764345<br>
+                                mukhtarhuzaifa25@gmail.com</p>
+                        </a>
+                    </div>
+                </footer>
+
+    </div><!---------container end------------->
+    
+</body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        duration: 1200,
+    });
+    const counters = document.querySelectorAll('.count');
+const speed = 250;
+
+counters.forEach((counter) => {
+  const updateCount = () => {
+    const target = parseInt(counter.getAttribute('data-target'));
+    const count = parseInt(counter.innerText);
+    const increment = Math.trunc(target / speed);
+
+    if (count < target) {
+      counter.innerText = count + increment;
+      setTimeout(updateCount, 1);
+    } else {
+      counter.innerText = target;
+    }
+  };
+  updateCount();
+});
+  </script>
+</html> 

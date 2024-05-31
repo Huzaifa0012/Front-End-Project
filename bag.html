@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bags.css">
+    <link rel="stylesheet" href="css/lightslider.css">
+    <title>Camera Bags</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/lightslider.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/lightslider.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+         $(document).ready(function() {
+    $('#autoWidth').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth').removeClass('cS-hidden');
+        } 
+    });  
+  });
+    </script>
+    <!-- <style>
+        .contai{
+            background-image: url(img/background.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style> -->
+    <script>
+        var a = document.getElementById("sa").value;
+        function abc(){
+            document.getElementById("sa").innerHTML = '<p>We are based in a professional photo studio with ten stylish rooms, <br>creative photographers, low prices, modern hi-tech laboratory, <br>tons of photo devices for rent and sale. Visit us and get an amazing photoshoot!</p> <img src="img/tommy.jpg" style="width: 70px; height: 70px; border-top-right-radius: 100px; border-bottom-left-radius: 100px; border-bottom-right-radius: 100px; border-top-left-radius: 100px; margin-top: 9%;"> <h2 style="color:  white; float: right; margin-top: 11%; margin-right: 60%;">Lisa Adam</h2>'
+        };
+    </script>
+</head>
+<body>
+    <div class="contai">
+        <header id="myHeader">
+            <section class="logo">
+                <img src="img/2.png" alt="2.png">
+            </section>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#">BRAND</a>
+                    <div class="megadiv1">
+                        <div class="mega2 animate__animated animate__fadeInDown">
+                            <a href="Canon.html"><img src="img/canon.png" alt="canon">
+                            <div class=" saad animate__animated animate__fadeInUp">
+                                <h4>CANON</h4>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="mega2 animate__animated animate__fadeInDown">
+                            <a href="nikon.html"><img src="img/nikon.png" alt="canon">
+                                <div class="saad animate__animated animate__fadeInUp">
+                                    <h4>NIKON</h4>
+                                </div>
+                                </a>
+                        </div>
+                        <div class="mega2 animate__animated animate__fadeInDown">
+                            <a href="sony.html"><img src="img/sony.png" alt="canon">
+                                <div class="saad animate__animated animate__fadeInUp">
+                                    <h4>SONY</h4>
+                                </div>
+                                </a>
+                        </div>
+                    </div>
+                    </li>
+                    <li><a href="#">CATEGORIES</a>
+                        <div class="megadiv">
+                            <div class="mega1 animate__animated animate__fadeInDown">
+                                <h2>CAMERA'S</h2>
+                                <a href="camera.html"><img src="img/mirrorless.png" alt="Saad"></a></div>
+                            <div class="mega1 animate__animated animate__fadeInDown">
+                                <h2>LENSE'S</h2>
+                                <a href="lense.html"><img src="img/lense1.png" alt="Saad"></a>
+                            </div>
+                            <!-- <div class="mega1 animate__animated animate__fadeInDown">
+                                <h2>MEMORY CARD'S</h2>
+                                <a href="card.html"><img src="img/MEDIA.PNG" alt="Saad"></a>
+                            </div><br>
+                            <div class="mega1 animate__animated animate__fadeInDown" style="margin-top: -0.2%;">
+                                <h2>TRIPOD'S & SUPPORT</h2>
+                                <a href="pods.html"><img src="img/tripods.png" alt="Saad"></a>
+                            </div>
+                            <div class="mega1 animate__animated animate__fadeInDown">
+                                <h2>LIGHTING STUDIO</h2>
+                                <a href="light.html"><img src="img/lighting.png" alt="Saad"></a>
+                            </div> -->
+                            <!-- <div class="mega1 animate__animated animate__fadeInDown">
+                                <h2>CAMERA BAGS</h2>
+                                <a href="bag.html"><img src="img/cases.png" alt="Saad"></a>
+                            </div> -->
+                        </div>
+                    </li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="comparison.html">COMPARISON</a></li>
+                </ul>
+            </nav>
+            <div class="acc">
+                <h6><a href="#">Feedback</a></h6>
+            </div>
+        </header><!---------header end--------------->
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var header = document.getElementById("myHeader");
+            var sticky = header.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+              } else {
+                header.classList.remove("sticky");
+              }
+            }
+            </script>
+        <div class="slider"><img src="img/backimg.jpg" alt=""></div><!---------sldier end------------->
+            <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-caret-up aria-hidden=" true></i></button>
+            <script>
+                // Get the button
+                let mybutton = document.getElementById("myBtn");
+                
+                // When the user scrolls down 30px from the top of the document, show the button
+                window.onscroll = function() {scrollFunction()};
+                
+                function scrollFunction() {
+                  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 80) {
+                    mybutton.style.display = "block";
+                  } else {
+                    mybutton.style.display = "none";
+                  }
+                }
+                
+                // When the user clicks on the button, scroll to the top of the document
+                function topFunction() {
+                  document.body.scrollTop = 0;
+                  document.documentElement.scrollTop = 0;
+                }
+                </script>
+                <div class="product">
+                    <a href="bag1.html">
+                        <div class="box1" data-aos="fade-right">
+                            <img src="img/ruggard.png" alt="ruggard.png">
+                            <a href="bag1.html"><h1>Ruggard Journey 44 DSLR Shoulder Bag <br>(Black)</h1></a>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            (27) Reviews<br><br>
+                            <a href="bag1.html">
+                                <div class="see animate__animated animate__fadeInLeft">
+                                    See Details
+                                </div>
+                            </a>
+                        </div><!-----------box1 end--------------------->
+                    </a>
+                    <a href="bag2.html">
+                        <div class="box1">
+                            <img src="img/onyx.png" alt="onyx.png"><br>
+                            <a href="bag2.html"><h1>Ruggard Onyx 35 Camera/Camcorder 
+                                <br>Shoulder Bag</h1></a>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            (20) Reviews<br><br>
+                            <a href="bag2.html">
+                                <div class="see animate__animated animate__fadeInLeft">
+                                    See Details
+                                </div>
+                            </a>
+                        </div><!----box1 end------------------------>
+                    </a>
+                    <a href="bag3.html">
+                        <div class="box1" data-aos="fade-left">
+                            <img src="img/carrying.png" alt="carrying.png">
+                            <a href="bag3.html"><h1>Sony System Carrying Case <br>(Black)</h1></a>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            (23) Reviews<br><br>
+                            <a href="bag3.html">
+                                <div class="see animate__animated animate__fadeInLeft">
+                                    See Details
+                                </div>
+                            </a>
+                        </div><!----box1 end------------------------>
+                    </a>
+                </div><!------product end----------------------->
+                <div class="product1">
+                    <a href="bag4.html">
+                        <div class="box2" data-aos="fade-right">
+                            <img src="img/tank.png" alt="tank.png">
+                            <a href="bag4.html"><h1>Think Tank Photo Retrospective 7 V2.0 
+                                <br>Shoulder Bag (Pinestone)</h1></a>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            (24) Reviews<br><br><br>
+                            <a href="bag4.html">
+                                <div class="see animate__animated animate__fadeInLeft">
+                                    See Details
+                                </div>
+                            </a>
+                        </div><!-----------box1 end--------------------->
+                    </a>
+                    <a href="bag5.html">
+                        <div class="box2">
+                            <img src="img/domke.png" alt="domke.png">
+                            <a href="bag5.html"><h1>Domke F-5XB RuggedWear Shoulder and 
+                                <br>Belt Bag (Brown)</h1></a>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            (25) Reviews<br><br>
+                            <a href="bag5.html">
+                                <div class="see animate__animated animate__fadeInLeft">
+                                    See Details
+                                </div>
+                            </a>
+                        </div><!-----------box1 end--------------------->
+                    </a>
+                    <a href="bag6.html">
+                        <div class="box2" data-aos="fade-left">
+                            <img src="img/nova.png" alt="nova.png">
+                            <a href="bag6.html"><h1>Lowepro Nova 170 AW II Camera 
+                                <br>Bag (Black)
+                            </h1></a>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            (20) Reveiws<br><br><br>
+                            <a href="bag6.html">
+                                <div class="see animate__animated animate__fadeInLeft">
+                                    See Details
+                                </div>
+                            </a>
+                        </div><!-----------box1 end--------------------->
+                    </a>
+                </div><!-------product1 end------------------->
+                <footer><!----------------footer end----------->
+                    <div class="heading"><h1>FOTOLAB</h1>
+                    <h6>Camera Shop & Accessories</h6>
+                    </div><!----------headin end--------------->
+                    <div class="add" style="margin-left: 12.5% " >
+                        <h2>Address</h2>
+                        <p>8500, Yellow Street<br>
+                             Chicago, IL, 55030</p>
+                    </div><!--------------add end-------->
+                    <div class="add1" style="margin-right: 37%;">
+                        <h2>Socials</h2>
+                        <a href="#">
+                            <div class="fb">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </div>
+                        </a>
+                        <a href="#">
+                            <div class="ins">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="twit">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="add2 " style="margin-top: 20%; margin-right: 10px;">
+                        <h2>Contacts</h2>
+                        <a href="https://mail.google.com/mail/u/0/#inbox">
+                            <p>0334-0315282<br>
+                                Saadwahid05@gmail.com</p> 
+                        </a>
+                    </div>
+                </footer><!-------footer end----------------------->
+
+    </div><!---------container end------------->
+    
+</body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        duration: 1200,
+    });
+    const counters = document.querySelectorAll('.count');
+const speed = 250;
+
+counters.forEach((counter) => {
+  const updateCount = () => {
+    const target = parseInt(counter.getAttribute('data-target'));
+    const count = parseInt(counter.innerText);
+    const increment = Math.trunc(target / speed);
+
+    if (count < target) {
+      counter.innerText = count + increment;
+      setTimeout(updateCount, 1);
+    } else {
+      counter.innerText = target;
+    }
+  };
+  updateCount();
+});
+  </script>
+</html> 
